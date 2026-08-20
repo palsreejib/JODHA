@@ -1,0 +1,45 @@
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# ROS 2 workspace generated files
+**/build/
+**/install/
+**/log/
+
+# ROS bag / recorded sensor data
+*.db3
+*.mcap
+*.bag
+*.bag.active
+
+# Local rosbag directories
+velodyne_bag/
+velodyne_bags/
+rosbags/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Python virtual environments
+.venv/
+venv/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Large dataset files
+*.pcd
+*.pcd.bin
